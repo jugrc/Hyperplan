@@ -108,6 +108,8 @@ clipper_conn = ClipperConnection(DockerContainerManager())
 clipper_conn.connect()
 ```
 
+Then stop all Clipper docker containers
+
 `clipper_conn.stop_all()`
 
 > Output : 
