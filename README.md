@@ -25,7 +25,7 @@ L'exemple type de la documentation Clipper est la prédiction sur un modèle qui
 - On créé une instance de Clipper dans Docker.
 - On enregistre une application *"hello-world"*.
 - Ensuite on enregistre un modèle *"sum-model"* avec la fonction qui renvoie la somme d'une liste de vecteurs, puis on le déploie.
-- On lie ensuite l'application avec le modèle (Clipper route les reuqêtes pour l'application ver le modèle), prête à servir les prédictions.
+- On lie ensuite l'application avec le modèle (Clipper route les requêtes pour l'application vers le modèle), prête à servir les prédictions.
 - Ensuite on fait une requête HTTP POST de la prédiction avec en entrée une liste de 10 nombres aléatoires entre 0 et 1.
 - Enfin, on ferme tous les clusters Clipper et les conteneurs des modèles.
 
